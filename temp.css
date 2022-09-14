@@ -1,0 +1,698 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/image1.png");
+    background-size: 100% 100%;
+    position: relative;
+    
+}
+.nav{
+    color: transparent!important;
+}
+
+/* <---------------------------------------------brunch----------------------------------------> */
+
+.brunch{
+    width: 760px;
+    height: 472px;
+    background-color: rgba(255, 255, 255, 0.783);
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   justify-content: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  
+}
+.brunch1{
+    font-size: 104px;
+    font-family:'cookie';
+    text-align: center;
+    color: rgb(44,58,66);
+    line-height: 104px;
+}
+.brunch2{
+    font-size: 77px;
+    font-family:raleway;
+    text-align: center;
+    color:rgb(173,108,18);
+    line-height:77px;
+}
+.brunch .brunch3{
+   height: 60px;
+   width: 260px;
+   border: none;
+}
+
+
+/* <-------------------------------------------------------------itf----------------------------------------> */
+.itf{
+    width: 100%;
+    background-color:  rgb(44,58,66);
+    display: flex;
+    padding: 50px 50px;
+}
+.itf1{
+margin: auto;
+width: 50%;
+}
+.itf1a{
+    color:rgb(255, 255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.itf1b{
+    color:rgb(255, 255, 255, 255);
+    font-size: 19px;
+    max-width: 560px;
+}
+.itf2{
+margin: auto;
+width: 50%;
+}
+
+/* <----------------------------------nnn--------------------------------------> */
+.nnn{
+    width: 100%;
+    /* height: 375px; */
+    background-color: rgb(212,216,217);
+    padding: 100px;
+}
+.n1{
+    width: 33%;
+  
+    margin: auto;
+   
+}
+.n2{
+    width: 33%;
+    
+    margin: auto;
+}
+.n3{
+    width: 33%;
+    
+    margin: auto;
+}
+.n1a{
+    
+    color:rgb(42,59,64);
+    font-family: ralway;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.n1b{
+    max-width: 280px;
+    color:rgb(42,59,64);
+    font-family: ralway;
+    font-size: 17px;
+}
+.n1c{
+    color:rgb(42,59,64);
+    font-size: 20px;
+  
+}
+
+.plate{
+    height: 90vh;
+     width: 90%; 
+    background-color: rgba(255, 255, 255, 0.607);
+    
+}
+/* <------------------------------------------india------------------------------------------------> */
+.india{
+    width: 100%;
+    background-image: url("images/image3.png");
+    background-size: 100% 100%;
+    /* padding: 100px 0px 100px 0px; */
+}
+.container-india{
+    background-color: rgba(255, 255, 255, 0.749);
+}
+.title
+{
+    width: 100%;
+  
+}
+.title_a{
+    font-size: 77px;
+    font-family:'cookie';
+    text-align: center;
+    color: rgb(44,58,66);
+    line-height: 77px;
+    
+}
+.title_b{
+    font-size: 48px;
+    font-family:raleway;
+    text-align: center;
+    color:rgb(173,108,18);
+    line-height:48px;
+    font-weight: bolder;
+  
+}
+.title1
+{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.t1{
+    width: 25%;
+    background-image: url('images/image4.png');
+    background-size: 100% 100%;
+    height: 316px;
+}
+.t2{
+    width: 25%;
+    height: 270px;
+    text-align: center;
+   
+    
+  
+}
+.t3{
+    width: 25%;
+    background-image: url('images/image5.png');
+    background-size: 100% 100%;
+    height: 316px;
+}
+.t4{
+    width: 25%;
+    height: 270px;
+    text-align: center;
+}
+.t5{
+    width: 25%;
+    height: 270px;
+    text-align: center;
+
+   
+}
+.t6{
+    width: 25%;
+    background-image: url('images/image6.png');
+    background-size: 100% 100%;
+    height: 316px;
+  
+}
+.t7{
+    width: 25%;
+    height: 270px;
+    text-align: center;
+
+    
+}
+.t8{
+    width: 25%;
+    background-image: url('images/image7.png');
+    background-size: 100% 100%;
+    height: 316px;}
+.t9{
+    width: 25%;
+    background-image: url('images/image8.png');
+    background-size: 100% 100%;
+    height: 316px;
+}
+.t10{
+    width: 25%;
+    height: 270px;
+    text-align: center;
+  
+}
+.t11{
+    width: 25%;
+    background-image: url('images/image9.png');
+    background-size: 100% 100%;
+    height: 316px;
+}
+.t12{
+    width: 25%;
+    height: 270px;
+    text-align: center;
+}
+
+.a{
+    font-size: 18px;
+    font-family: ralway;
+    color:rgb(44,58,66);
+    font-weight: bold;
+    
+}
+.b{
+    font-size: 17px;
+    font-family: ralway;
+    color:rgb(44,58,66);
+    
+    
+}
+.c{
+    font-size: 16px;
+    font-family: ralway;
+    color:rgb(44,58,66);
+    font-weight: bold;
+   
+} 
+/* .title2
+{
+    width: 50%;
+    height: auto;
+    background-color: rgb(170, 170, 42);
+    display: flex;
+    flex-wrap: wrap;
+  
+} */
+
+
+
+
+/* 
+
+.india{
+    width: 100%;
+    background-image: url("images/image3.png");
+    background-size: 100% 100%;
+   
+}
+.india1{
+   
+    height: auto;
+    width: auto;
+    max-width: 1130px !important;
+    width: 100%;
+}
+.ind1{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+.ind1 li
+{
+    height: auto;
+    width: 550px;
+    display: flex;
+}
+.in1a{
+    font-size: 77px;
+    font-family:'cookie';
+    text-align: center;
+    color: rgb(44,58,66);
+    line-height: 77px;
+    
+}
+.in1b{
+    font-size: 48px;
+    font-family:raleway;
+    text-align: center;
+    color:rgb(173,108,18);
+    line-height:48px;
+    font-weight: bolder;
+  
+}
+
+.in{
+   
+    display: flex;
+    width: 550px;
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.674);  
+}
+.in2{
+    width: 50%;
+    margin:auto;
+}
+.in3{
+    width: 50%;
+    margin: auto;
+    
+}
+.a{
+    font-size: 18px;
+    font-family: ralway;
+    color:rgb(44,58,66);
+    font-weight: bold;
+    
+}
+.b{
+    font-size: 17px;
+    font-family: ralway;
+    color:rgb(44,58,66);
+    
+}
+.c{
+    font-size: 16px;
+    font-family: ralway;
+    color:rgb(44,58,66);
+    font-weight: bold;
+   
+} */
+
+
+
+
+/* <------------------------------------------Traditional------------------------------------------------> */
+
+
+.traditional{
+width: 100%;
+height: 400px;
+background-color:rgb(44,58,66);
+
+}
+.traditional1{
+    background-color: rgba(255, 255, 255, 0.799);
+    height: 400px;
+}
+.trad1{
+   
+    width: 15%;
+    height: auto;
+    background-image: url('images/design1.png');
+    background-size: 100% 100%;
+  
+}
+.trad2{
+   
+    width: 70%;
+    height: auto;
+    text-align: center;
+    padding: 60px 60px;
+}
+.trad3{
+    
+    width: 15%;
+    background-image: url('images/design2.png');
+    background-size: 100% 100%;
+    height: auto;
+}
+.trad_title{
+font-size: 29px;
+font-family: Raleway;
+font-weight: bold;
+color:rgb(44,58,66);
+}
+.trad_contain{
+    font-size: 19px;
+    font-family: Raleway;
+    
+    color:rgb(44,58,66);
+}
+.trad_circle{
+    font-size: 20px;
+    /* font-family: Raleway; */
+    /* font-weight: bold; */
+    color:rgb(44,58,66);
+}
+.trad_nav{
+    font-size: 17px;
+    font-family: Raleway;
+    font-weight: bold;
+    color:rgb(44,58,66);
+    word-spacing: 25px;
+}
+
+/* <------------------------------------------discover                                                                                                                                                                                          ------------------------------------------------> */
+
+.discover{
+    height: 700px;
+    width: 100%;
+    background-image: url('images/image-10.png');
+    background-size: 100% 100%;
+    padding-top: 200px;
+}
+.discover_1{
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.767);
+    display: flex;
+    flex-wrap: wrap;
+}
+.dis1{
+    /* background-color: black; */
+    width: 100%;
+    text-align: center;
+}
+.dis1_a{
+    font-size: 77px;
+    font-family:'cookie';
+    color: rgb(44,58,66);
+    line-height: 77px;
+}
+
+.dis1_b{
+    font-size: 48px;
+    font-family:raleway;
+    color:rgb(173,108,18);
+    line-height:48px;
+    font-weight: semobold;
+}
+.dis2{
+    /* background-color: rgb(141, 130, 130); */
+    width: 50%;
+
+}
+.dis2_a{
+   /* background-color: bisque; */
+   display: flex;
+   margin-bottom: 25px;
+   
+}
+.dis2_a .dis2_a_a{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50% ;
+    margin-left: 40px;
+}
+.dis2_a .dis2_a_b{
+    /* background-color: aqua; */
+    border-radius: 50% ;
+    margin-left: 40px;
+}
+.d1{
+    font-size: 18px;
+    color: rgb(44,58,66);
+    font-weight: bold;
+    line-height: 18px;
+}
+.d2{
+    font-size: 17px;
+    color: rgb(44,58,66);
+    line-height: 17px;
+    
+}
+.dis3{
+    /* background-color: rgb(235, 161, 161); */
+    width: 50%;
+}
+
+/* <------------------------------------image---------------------------------------> */
+
+
+.image_book{
+    height: 90vh;
+    width: 100%;
+    background-image: url('images/image-11.png');
+    background-size: 100% 100%;
+}
+.book{
+    height: auto;
+    width: 100%;
+    background-color:rgb(44,58,66);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 50px;
+}
+.book1{
+   color: white;
+   font-family: cookie;
+   font-size: 77px;
+    width: 100%;
+    text-align: center;
+}
+.book2{
+    
+    width: 33%;
+}
+.book2 div{
+    color:white;
+    font-size: 17px;
+    font-family: Raleway;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-left: 100px;
+    
+}
+
+.book2 button{
+    color:white;
+    font-size: 17px;
+    font-family: Raleway;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-left: 100px;
+    /* width: 33%; */
+}
+.book4{
+    
+    width: 33%;
+}
+
+/* <-----------------------------------------new menu---------------------> */
+
+.image_menu{
+    height: 90vh;
+    width: 100%;
+    background-image: url('images/image-12.png');
+    background-size: 100% 100%;
+}
+.menu{
+    height: auto;
+    width: 100%;
+    background-color: rgb(212,216,217);
+    padding: 30px 30px ;
+}
+.menu1{
+  text-align: center;
+    width: 100%;
+}
+.menu2{
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.m1{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Raleway;
+    color: rgb(85,85,85);
+}
+.m2{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Raleway;
+    color: rgb(78,78,78);
+    
+}
+.m3{
+    font-size: 17px;
+    
+    font-family: Raleway;
+    color: rgb(79,78,78);
+}
+.m4{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Raleway;
+    color: rgb(85,85,85);
+}
+.menu2-1{
+    background-color: rgb(49, 237, 162);
+    width: 30%;
+    height: auto;
+    
+}
+.men1{
+    /* background-color: rgb(247, 5, 5); */
+     /* background-image: url('images/image1.png'); */
+    background-size: 100% 100%;
+    height: 300px; 
+}
+.men2{
+    background-color: white;
+    height: 190px;
+    padding-left: 20px;
+}
+
+/* <----------------------------faf fa icon ----------------------------> */
+
+.linda{
+    background-color: rgb(42,59,64);
+    width: 100%;
+    /* text-align: center; */
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 40px;
+
+}
+.li1{
+    color: white;
+
+}
+.li2{
+    color:white;
+    max-width: 685px;
+    width: 100%;
+}
+.li3{
+    color: white;
+    font-weight: bold;
+
+}
+.li4{
+    color:white;
+}
+
+/* <----------------------------  footer ----------------------------> */
+
+.footer{
+    background-color: antiquewhite;
+    width: 100%;
+
+}
+.footer_a{
+  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   padding: 50px 50px ;
+
+}
+.footer1{
+    
+    width: 40%;
+}
+.footer1_a{
+    color:rgb(42,59,64);
+    font-size: 25px;
+    font-family: Raleway;
+    font-weight: bold;
+}
+.footer1_b{
+    color:rgb(42,59,64);
+    font-size: 19px;
+    font-family: Raleway;
+    max-width: 343px;
+    width: 100%;
+   
+}
+.footer2{
+ 
+    width: 20%;
+}
+.footer ul{
+  
+        color:rgb(42,59,64);
+        font-size: 19px;
+        font-family: Raleway;
+        max-width: 343px;
+        width: 100%;
+       
+    
+}
+
+
